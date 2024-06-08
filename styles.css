@@ -39,6 +39,31 @@ body {
     text-decoration: underline;
 }
 
+.contact {
+    margin-top: 20px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1.5rem;
+}
+
+.contact a,
+.contact a:visited {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #61dafb;
+    text-decoration: underline;
+}
+
 .tipjar {
     margin-top: 20px;
 }

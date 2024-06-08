@@ -1,33 +1,39 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 20px;
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
 }
 
 .container {
-    text-align: center;
+    max-width: 600px;
 }
 
 .header {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
     animation: pulse 2s infinite;
 }
 
 .socials {
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .socials li {
     font-size: 1.5rem;
     margin: 10px 0;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
 }
 
 .tipjar {

@@ -1,19 +1,51 @@
 body {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    background-color: #282c34;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-.spinning-text {
+.container {
+    text-align: center;
+}
+
+.header {
     font-size: 3rem;
-    color: #61dafb;
-    animation: spin 3s linear infinite;
+    animation: pulse 2s infinite;
 }
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+.socials {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.socials li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.tipjar {
+    margin-top: 20px;
+}
+
+.tipjar h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.tipjar p {
+    font-size: 1.2rem;
+    word-break: break-all;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
 }

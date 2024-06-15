@@ -9,7 +9,6 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    position: relative;
 }
 
 .header {
@@ -18,20 +17,17 @@ body {
     animation: pulse 2s infinite;
 }
 
-.gif {
-    width: 100%;
-    max-width: 300px;
-    margin: 20px 0;
-    border: 2px solid white;
-    border-radius: 10px;
-    float: right;
-    margin-left: 20px;
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .socials {
     list-style: none;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 20px 20px 0;
+    flex: 1;
 }
 
 .socials li {
@@ -49,6 +45,13 @@ body {
 .socials a:hover {
     color: #61dafb;
     text-decoration: underline;
+}
+
+.gif {
+    max-width: 300px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .contact {

@@ -4,14 +4,18 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
-    position: relative;
-    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
-    padding-top: 250px; /* Ensure enough space for the GIF */
 }
 
 .header {
@@ -21,12 +25,7 @@ body {
 }
 
 .gif {
-    width: 100%;
     max-width: 300px;
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     border: 2px solid white;
     border-radius: 10px;
 }
@@ -35,7 +34,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 0 0 20px 0;
-    text-align: left;
 }
 
 .socials li {

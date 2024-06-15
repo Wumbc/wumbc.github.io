@@ -19,10 +19,8 @@ body {
 
 .gif {
     display: block;
-    margin: 20px auto 0; /* Center the GIF and add space from the content */
+    margin-top: 20px; /* Space from the content above */
     max-width: 100%;
-    border: 2px solid white;
-    border-radius: 10px;
 }
 
 .socials {

@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    text-align: center;
+    position: relative;
 }
 
 .header {
@@ -24,6 +24,8 @@ body {
     margin: 20px 0;
     border: 2px solid white;
     border-radius: 10px;
+    float: right;
+    margin-left: 20px;
 }
 
 .socials {

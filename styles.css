@@ -6,16 +6,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .container {
     max-width: 600px;
+    margin: 0 auto;
 }
 
 .header {
@@ -25,7 +18,9 @@ body {
 }
 
 .gif {
-    max-width: 300px;
+    display: block;
+    margin: 20px auto 0; /* Center the GIF and add space from the content */
+    max-width: 100%;
     border: 2px solid white;
     border-radius: 10px;
 }

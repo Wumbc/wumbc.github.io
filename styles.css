@@ -9,6 +9,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
 }
 
 .header {
@@ -18,9 +19,13 @@ body {
 }
 
 .gif {
-    display: block;
-    margin-top: 20px; /* Space from the content above */
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
 }
 
 .socials {

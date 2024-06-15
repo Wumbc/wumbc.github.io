@@ -4,6 +4,7 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -17,17 +18,20 @@ body {
     animation: pulse 2s infinite;
 }
 
-.content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+.gif {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: block;
 }
 
 .socials {
     list-style: none;
     padding: 0;
-    margin: 0 20px 20px 0;
-    flex: 1;
+    margin: 0 0 20px 0;
+    text-align: left;
 }
 
 .socials li {
@@ -45,13 +49,6 @@ body {
 .socials a:hover {
     color: #61dafb;
     text-decoration: underline;
-}
-
-.gif {
-    max-width: 300px;
-    margin-left: 20px;
-    border: 2px solid white;
-    border-radius: 10px;
 }
 
 .contact {

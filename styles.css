@@ -1,97 +1,14 @@
 body {
     margin: 0;
-    padding: 20px;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-family: Arial, sans-serif;
 }
 
-.container {
-    max-width: 600px;
-    margin-left: 20px; /* Adjusted to move content to the left */
-    position: relative;
-}
-
-.header {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    animation: pulse 2s infinite;
-}
-
-.gif {
-    width: 100%;
-    max-width: 300px;
-    margin: 20px 0;
-    /* Removed border property */
-    border-radius: 10px;
-    float: right;
-    margin-left: 20px;
-}
-
-.socials {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 20px 0;
-}
-
-.socials li {
-    font-size: 1.5rem;
-    margin: 10px 0;
-}
-
-.socials a,
-.socials a:visited {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.socials a:hover {
-    color: #61dafb;
-    text-decoration: underline;
-}
-
-.contact {
-    margin-top: 20px;
-}
-
-.contact h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.contact p {
-    font-size: 1.5rem;
-}
-
-.contact a,
-.contact a:visited {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.contact a:hover {
-    color: #61dafb;
-    text-decoration: underline;
-}
-
-.tipjar {
-    margin-top: 20px;
-}
-
-.tipjar h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.tipjar p {
-    font-size: 1.2rem;
-    word-break: break-all;
-}
-
-@keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+.face {
+    font-size: 25vw;
 }

@@ -1,14 +1,14 @@
 body {
-    margin: 0;
     background-color: black;
     color: white;
+    margin: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
 }
 
 .face {
-    font-size: 25vw;
+    font-size: 2rem; /* Try 2rem or 32px */
+    font-family: Arial, sans-serif;
 }
